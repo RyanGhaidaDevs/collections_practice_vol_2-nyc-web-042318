@@ -15,11 +15,15 @@ def begins_with_r (array)
 
 
   if arr.include?("false")
+
     return false
+
   else
+
     return true
-  end
     
+    end
+
   end
 
 
