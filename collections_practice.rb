@@ -13,9 +13,17 @@ def begins_with_r (array)
 
   end
 
-  arr.include?("false")
-
+  
+  if arr.include?("false")
+    return false 
+  else 
+    return true 
+  end 
+    
   end
+
+
+
 
   def contain_a (array)
     arr = []
