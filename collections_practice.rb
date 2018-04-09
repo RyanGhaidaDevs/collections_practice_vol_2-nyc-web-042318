@@ -13,12 +13,12 @@ def begins_with_r (array)
 
   end
 
-  
+
   if arr.include?("false")
-    return false 
-  else 
-    return true 
-  end 
+    return false
+  else
+    return true
+  end
     
   end
 
