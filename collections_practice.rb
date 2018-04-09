@@ -18,11 +18,11 @@ def begins_with_r (array)
   end
 
   def contain_a (array)
-    arr = [] 
+    arr = []
   array.each do |words|
     if words.start_with?("a")
       arr << words
     end
 return arr
 end
-end 
+end
