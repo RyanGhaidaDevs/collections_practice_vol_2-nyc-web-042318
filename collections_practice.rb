@@ -25,3 +25,4 @@ def begins_with_r (array)
     end
 return arr
 end
+end 
