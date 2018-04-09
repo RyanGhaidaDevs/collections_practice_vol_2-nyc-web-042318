@@ -19,10 +19,9 @@ def begins_with_r (array)
 
   def contain_a (array)
     arr = [] 
-  array.each do |words| 
+  array.each do |words|
     if words.start_with?("a")
       arr << words
     end
-return arr 
-end 
-  
+return arr
+end
